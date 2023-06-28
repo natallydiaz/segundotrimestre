@@ -1,19 +1,15 @@
-:root {
-     --cor-de-fundo:  #EBECEE;
-
+:root  {
+        --cor-de-fundo: #EBECEE;
 }
+
 body {
-    background-color: var(--cor-de-fundo);
-
+        background-color: var(--cor-de-fundo)
 }
 
-:root {
-    --cor-de-fundo: #EBECEE;
-    --branco: #FFFFFF;
+h1   {
+       background-color:white;
+
 }
-
-
-
 
 
 
