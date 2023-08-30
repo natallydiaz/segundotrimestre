@@ -13,6 +13,7 @@ background-position: center;
     display: flex;
  justify-content: space-between;
 align-items: center;
+position: relative;
 }
 
 .container {
@@ -23,6 +24,37 @@ align-items: center;
 .container___imagem{
     padding: 1em;
 }
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top:100%;
+    width:60vw;
+}
+
+.container___botao:checked ~ .lista-menu {
+    display: block;
+}
+
+.lista-menu___titulo,
+.lista-menu___item {
+    padding:1em;
+    background-color: var(--branco);
+}
+
+.lista-menu___titulo {
+    color: var(--laranja);
+}
+
+.lista-menu___link {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+
 
 
 
